@@ -57,5 +57,5 @@ def Chatbot():
     bot_reply  = str(get_response(user_msg))
     return bot_reply
 
-
-app.run( debug=True )
+if __name__=="__main__":
+    app.run()
